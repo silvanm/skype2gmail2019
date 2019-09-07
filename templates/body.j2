@@ -1,0 +1,10 @@
+<table>
+    {% for message in messages %}
+        <tr>
+            <td style="vertical-align:top;white-space: nowrap; background-color: hsl({{message['color']}}, 54%, 90%) ">
+                {{ message['datetime'] | format_datetime }}</td>
+            <td style="vertical-align:top;white-space: nowrap; background-color: hsl({{message['color']}}, 54%, 90%) ">{{ message['from'] }}</td>
+            <td style="vertical-align:top; background-color: hsl({{message['color']}}, 54%, 90%) ">{{ message['content'] }}</td>
+        </tr>
+    {% endfor %}
+</table>

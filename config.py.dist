@@ -1,0 +1,7 @@
+
+# This is the label which is assigned to all the mails imported into Gmail.
+# Use the command "labels" to list emails
+GMAIL_LABEL="Label_232"
+
+# Used for setting the "From" field in the email.
+YOUR_EMAIL="silvan.muehlemann@muehlemann-popp.ch"
